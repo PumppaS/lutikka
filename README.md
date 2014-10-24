@@ -1,7 +1,7 @@
 lutikka
 =======
 
-codecamp 2014 p2 funktiolaskin lutikka
+codecamp 2014 p2 lampotilamuunnin lutikka
 
-funktiolaskin joka toimii melkein
+lampotilamuunnin joka toimii melkein
 pythonkoodi on tiedostossa lampotilamuunnin.py
