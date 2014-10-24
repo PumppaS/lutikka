@@ -17,8 +17,8 @@ def f2k(fahrenheit):
       kelvin = (fahrenheit +459.67)/1.8
       return kelvin
 def f2c(fahrenheit):
-      #celsius= ?? tämä pitäisi toteuttaa
-      return 0
+      celsius = (fahrenheit -32)/1.8            #toteuttanut ryhmä Valuuttamuunnin
+      return celsius
 def k2c(kelvin):
       #toiminallisuuspuuttuu
       return 0 #pitäisi palauttaa celsiukset
