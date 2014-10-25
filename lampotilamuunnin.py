@@ -20,8 +20,8 @@ def f2c(fahrenheit):
       celsius = (fahrenheit -32)/1.8            #toteuttanut ryhmä Valuuttamuunnin
       return celsius
 def k2c(kelvin):
-      #toiminallisuuspuuttuu
-      return 0 #pitäisi palauttaa celsiukset
+      celsius = kelvin - 273.15			#toteuttanut ryhmä sananmuunnin
+      return celsius
 def k2f(kelvin):      
       fahrenheit = (kelvin*1.8)-459.67
       return fahrenheit      
@@ -59,7 +59,7 @@ def main():
                   aste=float(input("Anna lähtölämpötila: "))
                   muunnos=f2c(aste)
                   print("Lämpötila celsius asteina:", round(muunnos, 2))
-            elif (valinta==5):#valinta toimii mutta toiminallisuus puuttuu (palauttaa 0)
+            elif (valinta==5):
                   aste=float(input("Anna lähtölämpötila: "))
                   muunnos=k2c(aste)
                   print("Lämpötila celsius asteina:", round(muunnos, 2))
